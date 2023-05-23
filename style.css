@@ -1,0 +1,232 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image:url(./shara\ desert.jpg);
+    background-size:cover;
+}
+.nav{
+    width:30%;
+    display:flex;
+    margin:30px;
+    justify-content:space-around;
+    position:absolute;
+    right:25px;
+    cursor:pointer;
+   }
+a{
+    text-decoration:none;
+    color:white;
+}
+.home,.region,.nav{
+    color:white;
+    align-items:center;
+    
+}
+.img{
+    padding:40px;
+}
+.box{
+    width:45%;
+    height:75vh;
+    display:flex;
+    flex-wrap:wrap;
+    
+    justify-content:space-evenly;
+    float:right;
+    }
+.one{
+    width:36%;
+    height:200px;
+    padding:10px;
+    background-image:url(./pic-4.png);
+    background-size:cover;
+    color:white;
+    border-radius:10px;
+
+
+}
+.two{
+    width:36%;
+    height:200px;
+    padding:10px;
+    color:white;
+    background-image:url(./pic-1.png);
+    background-size:cover;
+    border-radius:10px;
+
+}
+.three{
+    width:36%;
+    height:200px;
+    padding:10px;
+    color:white;
+    background-image:url(./pic-2.png);
+    background-size:cover;
+    border-radius:10px;
+
+}
+.four{
+    width:36%;
+    height:200px;
+    padding:10px;
+    color:white;
+    background-image:url(./pic-3.png);
+    background-size:cover;
+    border-radius:10px;
+}
+
+
+.one:hover{
+    transition:1s;
+    transform:translateY(-8px);
+
+}
+.two:hover{
+    transition:1s;
+    transform:translateY(-8px);
+}
+.three:hover{
+    transition:1s;
+    transform:translateY(-8px);
+
+}
+.four:hover{
+    transition:1s;
+    transform:translateY(-8px);
+
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+}
+.sahara{
+    text-align:center;
+    font-size:120%;
+    color:white;
+}
+h1{
+    font-size:4em;
+}
+span{
+    background-color:white;
+    border-radius:5em;
+    color:black;
+    padding:.4em 3em;
+    font-weight:bold;
+    
+}
+/* for mobile screen only */
+ @media screen and (min-width:100px) and (max-width:500px){
+  body{
+    width:100%;
+  }
+    .nav{
+    flex-direction:column;
+     gap:1px;
+   }
+   h1{
+    font-size:3em;
+   }
+   .img{
+    padding:3px;
+    
+   }
+   
+   .box{
+       width:200px;
+       height:auto;
+       margin:auto;
+       gap:20px;
+       flex-direction:column;
+    
+   }
+   .container{
+    flex-direction:column;
+    gap:20px;
+   }
+  
+    .one{
+        width:120%;
+        padding:10px;
+        margin:auto;
+        align-items:center;
+    }
+    .two{
+        width:120%;
+        padding:10px;
+        align-items:center;
+    }
+    .three{
+        width:120%;
+        padding:10px;
+        align-items:center;
+    }
+    .four{
+        width:120%;
+        padding:10px;
+        align-items:center;
+    }
+ }
+ /* for i pad */
+@media screen and (min-width:500px) and (max-width:850px){
+    body{
+        padding:20px;
+    }
+    .nav{
+        gap:1px;
+    }
+ 
+    .img{
+     padding:3px;
+     
+    }
+    
+    .box{
+        width:600px;
+        height:auto;
+        margin-top:30px;
+        margin-left:20px;
+        gap:20px;
+        flex-direction:column;
+    
+     
+    }
+    .container{
+     flex-direction:column;
+    }
+   
+     .one{
+         width:90%;
+         height:200px;
+         margin:auto;
+         
+     }
+     .two{
+        width:90%;
+        height:200px;
+        margin:auto;
+     }
+     .three{
+        width:90%;
+        height:200px;
+        margin:auto;
+     }
+     .four{
+        width:90%;
+        height:200px;
+        margin:auto;
+     }
+ }
+      
+     
+
+
+     
+
+
+     
+
+
+     
